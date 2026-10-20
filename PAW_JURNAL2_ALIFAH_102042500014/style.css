@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f4f6f8; margin: 0; color: #222; }
+.wadah { max-width: 900px; margin: 24px auto; background: #fff; padding: 24px; border: 1px solid #ddd; border-radius: 6px; }
+nav { border-bottom: 1px solid #ddd; padding-bottom: 12px; margin-bottom: 16px; }
+nav a { margin-right: 16px; color: #1f4e79; text-decoration: none; font-weight: bold; }
+h1 { margin-top: 0; }
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+th, td { text-align: left; padding: 10px; border-bottom: 1px solid #e3e3e3; vertical-align: top; }
+th { background: #f0f0f0; }
+.btn { display: inline-block; padding: 6px 12px; border: 1px solid #1f4e79; background: #1f4e79; color: #fff; border-radius: 3px; text-decoration: none; font-size: 14px; cursor: pointer; }
+.btn-light { background: #fff; color: #1f4e79; }
+.btn-danger { background: #8e2f38; border-color: #8e2f38; }
+.btn-kecil { padding: 3px 9px; font-size: 13px; }
+.aksi { white-space: nowrap; }
+.aksi form { display: inline; }
+.alert { padding: 10px 14px; margin-bottom: 14px; background: #f0f0f0; border-left: 4px solid #888; }
+.alert.success { border-color: #2e7d32; color: #1b5e20; }
+.alert.error { border-color: #8e2f38; color: #8e2f38; }
+.alert.info { border-color: #1f4e79; color: #1f4e79; }
+.galat { color: #8e2f38; font-size: 13px; margin-top: 4px; }
+.kosong { border: 1px dashed #bbb; padding: 24px; margin-top: 14px; }
+.baris-atas { display: flex; justify-content: space-between; align-items: center; }
+.cari { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+.cari input[type=text] { flex: 1; min-width: 160px; }
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.form-grid .penuh { grid-column: 1 / -1; }
+label { display: block; font-weight: bold; margin-bottom: 4px; }
+input[type=text], input[type=date], select, textarea { width: 100%; padding: 8px; border: 1px solid #bbb; border-radius: 3px; font: inherit; }
+textarea { min-height: 100px; }
+.ringkas { display: flex; gap: 32px; margin: 16px 0; }
+.ringkas strong { display: block; font-size: 24px; }
+dl { display: grid; grid-template-columns: 160px 1fr; gap: 8px; }
+dt { font-weight: bold; }
+dd { margin: 0; }
+@media (max-width: 600px) { .form-grid { grid-template-columns: 1fr; } }
